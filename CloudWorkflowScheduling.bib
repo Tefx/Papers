@@ -1,4 +1,4 @@
-% This file was created with JabRef 2.10b2.
+% This file was created with JabRef 2.10.
 % Encoding: UTF8
 
 
@@ -57,7 +57,14 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X12001008}
 }
 
-@Electronic{AWS2014,
+@Electronic{AmazonWebServices2015,
+  Title                    = {Amazon EFS---Cloud File Storage},
+  Author                   = {Amazon Web Services, Inc},
+  Url                      = {http://goo.gl/Ce5CPE},
+  Year                     = {2015}
+}
+
+@Electronic{AmazonWebServices2014,
   Title                    = {Amazon EC2 Pricing},
   Author                   = {Amazon Web Services, Inc},
   Url                      = {http://goo.gl/yKb41s},
@@ -495,7 +502,7 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X14000442}
 }
 
-@InProceedings{Fard2013a,
+@InProceedings{Fard2013,
   Title                    = {Budget-Constrained Resource Provisioning for Scientific Applications in Clouds},
   Author                   = {Fard, H.M. and Fahringer, T. and Prodan, R.},
   Booktitle                = {Cloud Computing Technology and Science (CloudCom), 2013 IEEE 5\textsuperscript{th} International Conference on},
@@ -510,7 +517,7 @@
   Keywords                 = {budgeting;cloud computing;optimisation;resource allocation;scheduling;budget constraint;budget-constrained resource provisioning;completion time optimization;heuristic scheduling algorithms;monetary cost;optimal makespan;public commercial cloud resources;real-world workflow applications;rescheduling operations;resource provisioning cost reduction;scientific computing;scientific workflows;synthetic workflow applications;Algorithm design and analysis;Booting;Cloud computing;Delays;Optimization;Schedules;Scheduling;cloud computing;makespan;monetary cost;resource provisioning;scheduling;scientific workflows}
 }
 
-@Article{Fard2013,
+@Article{Fard2013a,
   Title                    = {A Truthful Dynamic Workflow Scheduling Mechanism for Commercial Multicloud Environments},
   Author                   = {Fard, H.M. and Prodan, R. and Fahringer, T.},
   Journal                  = {Parallel and Distributed Systems, IEEE Transactions on},
@@ -682,6 +689,19 @@
   Publisher                = {Springer Netherlands}
 }
 
+@InProceedings{Ilyushkin2015,
+  Title                    = {Scheduling Workloads of Workflows with Unknown Task Runtimes},
+  Author                   = {Ilyushkin, Alexey and Ghit, Bogdan and Epema, Dick},
+  Booktitle                = {Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on},
+  Year                     = {2015},
+  Month                    = {May},
+  Pages                    = {606-616},
+
+  Abstract                 = {Workflows are important computational tools in many branches of science, and because of the dependencies among their tasks and their widely different characteristics, scheduling them is a difficult problem. Most research on scheduling workflows has focused on the offline problem of minimizing the make span of single workflows with known task runtimes. The problem of scheduling multiple workflows has been addressed either in an offline fashion, or still with the assumption of known task runtimes. In this paper, we study the problem of scheduling workloads consisting of an arrival stream of workflows without task runtime estimates. The resource requirements of a workflow can significantly fluctuate during its execution. Thus, we present four scheduling policies for workloads of workflows with as their main feature the extent to which they reserve processors to workflows to deal with these fluctuations. We perform simulations with realistic synthetic workloads and we show that any form of processor reservation only decreases the overall system performance and that a greedy backfilling-like policy performs best.},
+  Doi                      = {10.1109/CCGrid.2015.27},
+  Keywords                 = {Approximation methods;Periodic structures;Processor scheduling;Program processors;Runtime;Schedules;Scheduling;backfilling;e-Science;online;reservation;scheduling;workflows;workloads}
+}
+
 @Article{Iosup2011,
   Title                    = {Performance Analysis of Cloud Computing Services for Many-Tasks Scientific Computing},
   Author                   = {Iosup, A. and Ostermann, S. and Yigitbasi, M.N. and Prodan, R. and Fahringer, T. and Epema, D.H.J.},
@@ -698,24 +718,6 @@
   File                     = {:PDF/Iosup2011.pdf:PDF},
   ISSN                     = {1045-9219},
   Keywords                 = {cloud computing;software performance evaluation;task analysis;Amazon EC2;cloud computing services;clouds cost model;loosely coupled application;many tasks scientific computing;performance analysis;real scientific computing workload;trace based simulation;Cloud computing;Computational modeling;Kernel;Performance evaluation;Production;Supercomputers;Distributed systems;distributed applications;metrics/measurement;performance evaluation;performance measures.}
-}
-
-@Article{Ishibuchi2015,
-  Title                    = {Behavior of Multiobjective Evolutionary Algorithms on Many-Objective Knapsack Problems},
-  Author                   = {Ishibuchi, H. and Akedo, N. and Nojima, Y.},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
-  Year                     = {2015},
-
-  Month                    = apr,
-  Number                   = {2},
-  Pages                    = {264--283},
-  Volume                   = {19},
-
-  Abstract                 = {We examine the behavior of three classes of evolutionary multiobjective optimization (EMO) algorithms on many-objective knapsack problems. They are Pareto dominance-based, scalarizing function-based, and hypervolume-based algorithms. NSGA-II, MOEA/D, SMS-EMOA, and HypE are examined using knapsack problems with 2-10 objectives. Our test problems are generated by randomly specifying coefficients (i.e., profits) in objectives. We also generate other test problems by combining two objectives to create a dependent or correlated objective. Experimental results on randomly generated many-objective knapsack problems are consistent with well-known performance deterioration of Pareto dominance-based algorithms. That is, NSGA-II is outperformed by the other algorithms. However, it is also shown that NSGA-II outperforms the other algorithms when objectives are highly correlated. MOEA/D shows totally different search behavior depending on the choice of a scalarizing function and its parameter value. Some MOEA/D variants work very well only on two-objective problems while others work well on many-objective problems with 4-10 objectives. We also obtain other interesting observations such as the performance improvement by similar parent recombination and the necessity of diversity improvement for many-objective knapsack problems.},
-  Doi                      = {10.1109/TEVC.2014.2315442},
-  File                     = {:PDF/Ishibuchi2015.pdf:PDF},
-  ISSN                     = {1089-778X},
-  Keywords                 = {Pareto optimisation;genetic algorithms;knapsack problems;EMO algorithms;HypE;MOEA/D;NSGA-II;Pareto dominance-based algorithms;SMS-EMOA;evolutionary multiobjective optimization;hypervolume-based algorithms;many-objective knapsack problems;scalarizing function-based algorithms;Approximation algorithms;Pareto optimization;Search problems;Sociology;Vectors;Evolutionary many-objective optimization;evolutionary multiobjective optimization (EMO);many-objective problems}
 }
 
 @InCollection{Ishibuchi2010,
@@ -813,7 +815,7 @@
   Keywords                 = {cloud computing;scheduling;clouds heterogeneity;data transfer;end-to-end execution time;external cloud-based services;federated heterogeneous clouds;heterogeneous computing nodes;optimal time-cost tradeoff;parallel service workflow;private clouds;public clouds;sub-tasks interdependencies;workflow complexity;workflow scheduler;Abstracts;Cloud computing;Data transfer;Delays;Equations;Heuristic algorithms;Merging;cloud;optimization;parallel workflow;tradeoff}
 }
 
-@Article{Juve2013a,
+@Article{Juve2013,
   Title                    = {Characterizing and profiling scientific workflows },
   Author                   = {Gideon Juve and Ann Chervenak and Ewa Deelman and Shishir Bharathi and Gaurang Mehta and Karan Vahi},
   Journal                  = {Future Generation Computer Systems },
@@ -847,7 +849,20 @@
   Language                 = {English}
 }
 
-@Article{Juve2013,
+@InProceedings{Juve2009,
+  Title                    = {Scientific workflow applications on Amazon EC2},
+  Author                   = {Juve, G. and Deelman, E. and Vahi, K. and Mehta, G. and Berriman, B. and Berman, B.P. and Maechling, P.},
+  Booktitle                = {E-Science Workshops, 2009 5th IEEE International Conference on},
+  Year                     = {2009},
+  Month                    = {Dec},
+  Pages                    = {59-66},
+
+  Abstract                 = {The proliferation of commercial cloud computing providers has generated significant interest in the scientific computing community. Much recent research has attempted to determine the benefits and drawbacks of cloud computing for scientific applications. Although clouds have many attractive features, such as virtualization, on-demand provisioning, and Â¿pay as you goÂ¿ usage-based pricing, it is not clear whether they are able to deliver the performance required for scientific applications at a reasonable price. In this paper we examine the performance and cost of clouds from the perspective of scientific workflow applications. We use three characteristic workflows to compare the performance of a commercial cloud with that of a typical HPC system, and we analyze the various costs associated with running those workflows in the cloud. We find that the performance of clouds is not unreasonable given the hardware resources provided, and that performance comparable to HPC systems can be achieved given similar resources. We also find that the cost of running workflows on a commercial cloud can be reduced by storing data in the cloud rather than transferring it from outside.},
+  Doi                      = {10.1109/ESCIW.2009.5408002},
+  Keywords                 = {Internet;ubiquitous computing;Amazon EC2;HPC system;commercial cloud computing;scientific workflow application;Application software;Application virtualization;Cloud computing;Costs;Grid computing;Open source software;Performance analysis;Processor scheduling;Resource management;Scientific computing}
+}
+
+@Article{Juve2013a,
   Title                    = {Comparing FutureGrid, Amazon EC2, and Open Science Grid for Scientific Workflows},
   Author                   = {Juve, Gideon and Rynge, Mats and Deelman, Ewa and Vockler, Jens-S. and Berriman, G. Bruce},
   Journal                  = {Computing in Science \& Engineering},
@@ -945,7 +960,7 @@
   Keywords                 = {evolutionary computation;mathematical operators;optimisation;search problems;SBS;evolutionary algorithms;evolutionary information feedback;genetic operators;multiobjective optimization problems;representative variation operators;segment-based search;Convergence;Genetics;Optimization;Scattering;Search problems;Sociology;Statistics;Hybrid evolutionary algorithms;multiobjective optimization;segment-based search;variation operators}
 }
 
-@Article{Li2014b,
+@Article{Li2014a,
   Title                    = {Shift-Based Density Estimation for Pareto-Based Algorithms in Many-Objective Optimization},
   Author                   = {Miqing Li and Shengxiang Yang and Xiaohui Liu},
   Journal                  = {Evolutionary Computation, IEEE Transactions on},
@@ -963,7 +978,7 @@
   Keywords                 = {Pareto optimisation;evolutionary computation;EMO algorithms;Pareto dominance relation;Pareto front;Pareto-based evolutionary multiobjective optimization algorithm;SDE strategy;diversity maintenance mechanisms;high-dimensional space;many-objective optimization;shift-based density estimation;sparse regions;Convergence;Evolutionary multiobjective optimization;convergence;diversity;evolutionary multiobjective optimization;many-objective optimization;manyobjective optimization;shift-based density estimation}
 }
 
-@Article{Li2014a,
+@Article{Li2014b,
   Title                    = {Etea: A Euclidean Minimum Spanning Tree-based Evolutionary Algorithm for Multi-objective Optimization},
   Author                   = {Li, Miqing and Yang, Shengxiang and Zheng, Jinhua and Liu, Xiaohui},
   Journal                  = {Evol. Comput.},
@@ -1051,6 +1066,22 @@
   Volume                   = {18},
 
   File                     = {:PDF/Luo2015.pdf:PDF}
+}
+
+@Article{Malawski2015,
+  Title                    = {Algorithms for cost- and deadline-constrained provisioning for scientific workflow ensembles in IaaS clouds},
+  Author                   = {Maciej Malawski and Gideon Juve and Ewa Deelman and Jarek Nabrzyski},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2015},
+  Note                     = {Special Section: Business and Industry Specific Cloud },
+  Pages                    = {1--18},
+  Volume                   = {48},
+
+  Abstract                 = {Abstract Large-scale applications expressed as scientific workflows are often grouped into ensembles of inter-related workflows. In this paper, we address a new and important problem concerning the efficient management of such ensembles under budget and deadline constraints on Infrastructure as a Service (IaaS) clouds. IaaS clouds are characterized by on-demand resource provisioning capabilities and a pay-per-use model. We discuss, develop, and assess novel algorithms based on static and dynamic strategies for both task scheduling and resource provisioning. We perform the evaluation via simulation using a set of scientific workflow ensembles with a broad range of budget and deadline parameters, taking into account task granularity, uncertainties in task runtime estimations, provisioning delays, and failures. We find that the key factor determining the performance of an algorithm is its ability to decide which workflows in an ensemble to admit or reject for execution. Our results show that an admission procedure based on workflow structure and estimates of task runtimes can significantly improve the quality of solutions. },
+  Doi                      = {10.1016/j.future.2015.01.004},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Scientific workflows},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15000059}
 }
 
 @InProceedings{Malawski2012,
@@ -1319,6 +1350,19 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X13002884}
 }
 
+@InProceedings{Sridhar2015,
+  Title                    = {Hybrid Particle Swarm Optimization scheduling for cloud computing},
+  Author                   = {Sridhar, M. and Babu, G.Rama Mohan},
+  Booktitle                = {Advance Computing Conference (IACC), 2015 IEEE International},
+  Year                     = {2015},
+  Month                    = {June},
+  Pages                    = {1196-1200},
+
+  Abstract                 = {Cloud computing is revolutionizing on how information technology is used by organizations and individuals. Cloud computing provides dynamic services with virtualized resources over the Internet. It ensures facilities to develop, deploy, and manage applications ‘on the cloud’ for end users entailing resources virtualization that maintains and manages itself. Scheduling is a task performed to get maximum profit to increase cloud computing work load efficiency. Its objective is using resources properly and managing load between resources with minimum execution time. High communication cost incurs in clouds prevent task schedulers from being applied in a large scale distributed environment. This study proposes a hybrid Particle Swarm Optimization (PSO) which performs better in execution ratio and average schedule length.},
+  Doi                      = {10.1109/IADCC.2015.7154892},
+  Keywords                 = {Cloud computing;Conferences;Optimal scheduling;Schedules;Scheduling algorithms;Cloud computing;execution ratio and average schedule length;hybrid Particle Swarm Optimization (PSO);task scheduling}
+}
+
 @Article{Su2013,
   Title                    = {Cost-efficient task scheduling for executing large programs in the cloud },
   Author                   = {Sen Su and Jian Li and Qingjia Huang and Xiao Huang and Kai Shuang and Jie Wang},
@@ -1549,7 +1593,7 @@
   Keywords                 = {Application software;Computer applications;Computer architecture;Computer science;Economic forecasting;Grid computing;Processor scheduling;Resource management;Runtime environment;Scheduling algorithm}
 }
 
-@Article{Wu2015a,
+@Article{Wu2015,
   Title                    = {Workflow scheduling in cloud: a survey},
   Author                   = {Wu, Fuhui and Wu, Qingbo and Tan, Yusong},
   Journal                  = {The Journal of Supercomputing},
@@ -1564,7 +1608,7 @@
   Publisher                = {Springer US}
 }
 
-@Article{Wu2015,
+@Article{Wu2015a,
   Title                    = {Resource and Instance Hour Minimization for Deadline Constrained DAG Applications Using Computer Clouds},
   Author                   = {Wu, H. and Hua, X. and Li, Z. and Ren, S.},
   Journal                  = {Parallel and Distributed Systems, IEEE Transactions on},
@@ -1895,6 +1939,22 @@
   File                     = {:PDF/Zhu2012.pdf:PDF},
   ISSN                     = {1097-2641},
   Keywords                 = {cloud computing;online front-ends;optimisation;resource allocation;scheduling;scientific information systems;Web browsers;cloud computing;cloud overhead minimization;cloud service provider;computing delivery;cost-effective job scheduling algorithm;data access;delay-constrained optimization problem;dynamic computing demands;large-scale workflow-based scientific applications;metered service;resource utilization improvement;scientific users;software delivery;total execution time reduction;two-step workflow scheduling algorithm;user-specified execution time bound;workflow completion time;Cloud computing;Computational modeling;Delay;Resource management;Scheduling algorithms;Virtual machining;Scientific workflow;cloud computing;workflow scheduling}
+}
+
+@Article{Zhu2015,
+  Title                    = {Evolutionary Multi-Objective Workflow Scheduling in Cloud},
+  Author                   = {Zhu, Z. and Zhang, G. and Li, M. and Liu, X.},
+  Journal                  = {Parallel and Distributed Systems, IEEE Transactions on},
+  Year                     = {2015},
+  Number                   = {99},
+  Pages                    = {1-1},
+  Volume                   = {PP},
+
+  Abstract                 = {Cloud computing provides promising platforms for executing large applications with enormous computational resources to offer on demand. In a Cloud model, users are charged based on their usage of resources and the required Quality of Service (QoS) specifications. Although there are many existing workflow scheduling algorithms in traditional distributed or heterogeneous computing environments, they have difficulties in being directly applied to the Cloud environments since Cloud differs from traditional heterogeneous environments by its service-based resource managing method and pay-per-use pricing strategies. In this paper, we highlight such difficulties, and model the workflow scheduling problem which optimizes both makespan and cost as a Multi-objective Optimization Problem (MOP) for the Cloud environments. We propose an Evolutionary Multi-objective Optimization (EMO)-based algorithm to solve this workflow scheduling problem on an Infrastructure as a Service (IaaS) platform. Novel schemes for problemspecific encoding and population initialization, fitness evaluation and genetic operators are proposed in this algorithm. Extensive experiments on real world workflows and randomly generated workflows show that the schedules produced by our evolutionary algorithm present more stability on most of the workflows with the instance-based IaaS computing and pricing models. The results also show that our algorithm can achieve significantly better solutions than existing state-of-the-art QoS optimization scheduling algorithms in most cases. The conducted experiments are based on the on-demand instance types of Amazon EC2; however, the proposed algorithm are easy to be extended to the resources and pricing models of other IaaS services.},
+  Doi                      = {10.1109/TPDS.2015.2446459},
+  File                     = {:home/tefx/Downloads/07127017.pdf:PDF},
+  ISSN                     = {1045-9219},
+  Keywords                 = {Computational modeling;Encoding;Pricing;Processor scheduling;Quality of service;Schedules;Scheduling;Cloud computing;Infrastructure as a Service;evolutionary algorithm;multi-objective optimization;workflow scheduling}
 }
 
 @TechReport{Zitzler2001,

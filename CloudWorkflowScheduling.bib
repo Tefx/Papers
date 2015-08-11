@@ -57,15 +57,15 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X12001008}
 }
 
-@Electronic{AmazonWebServices2015,
+@Electronic{Amazon2015,
   Title                    = {Amazon EFS---Cloud File Storage},
   Author                   = {Amazon},
   Url                      = {http://goo.gl/Ce5CPE},
   Year                     = {2015}
 }
 
-@Electronic{AmazonWebServices2015a,
-  Title                    = {Amazon EC2 FAQs},
+@Electronic{Amazon2015a,
+  Title                    = {Amazon EC2---FAQs},
   Author                   = {Amazon},
   Url                      = {http://goo.gl/43zeHN},
   Year                     = {2015},
@@ -74,7 +74,7 @@
   Timestamp                = {2015.07.27}
 }
 
-@Electronic{AmazonWebServices2014,
+@Electronic{Amazon2014,
   Title                    = {Amazon EC2 Pricing},
   Author                   = {Amazon},
   Url                      = {http://goo.gl/yKb41s},
@@ -335,7 +335,7 @@
 }
 
 @Electronic{Computing2013,
-  Title                    = {Back to the Future: 1.21 petaFLOPS(RPeak), 156,000-core CycleCloud HPC runs 264 years of Materials Science | Cycle Computing},
+  Title                    = {Back to the Future: 1.21 petaFLOPS(RPeak), 156,000-core CycleCloud HPC runs 264 years of Materials Science},
   Author                   = {Cycle Computing},
   Month                    = nov,
   Url                      = {http://www.cyclecomputing.com/blog/back-to-the-future-121-petaflopsrpeak-156000-core-cyclecloud-hpc-runs-264-years-of-materials-science/},
@@ -474,6 +474,20 @@
   ISSN                     = {0167-739X},
   Keywords                 = {Energy-efficient scheduling;Workflow scheduling;Multi-objective optimisation},
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X13001507}
+}
+
+@Article{Durillo2015,
+  Title                    = {Pareto tradeoff scheduling of workflows on federated commercial Clouds },
+  Author                   = {Juan J. Durillo and Radu Prodan and Jorge G. Barbosa},
+  Journal                  = {Simulation Modelling Practice and Theory },
+  Year                     = {2015},
+  Pages                    = { - },
+
+  Abstract                 = {Abstract As distributed computing infrastructures become nowadays ever more complex and heterogeneous, scientists are confronted with multiple competing goals such as makespan in high-performance computing and economic cost in Clouds. Existing approaches typically aim at finding a single tradeoff solution by aggregating or constraining the objectives in an a-priory fashion, which negatively impacts the quality of the solutions. In contrast, Pareto-based approaches aiming to approximate the complete set of (nearly-) optimal tradeoff solutions have been scarcely studied. In this paper, we extend the popular Heterogeneous Earliest Finish Time (HEFT) workflow scheduling heuristic for dealing with multiple conflicting objectives and approximating the Pareto frontier optimal schedules. We evaluate our new algorithm for performance and cost tradeoff optimisation of synthetic and real-world applications in Distributed Computing Infrastructures (DCIs) and federated Clouds and compare it with a state-of-the-art meta-heuristic from the multi-objective optimisation community. },
+  Doi                      = {http://dx.doi.org/10.1016/j.simpat.2015.07.001},
+  ISSN                     = {1569-190X},
+  Keywords                 = {Scheduling},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1569190X15001057}
 }
 
 @InProceedings{Fahringer2005,
@@ -702,10 +716,10 @@
 @InProceedings{Ilyushkin2015,
   Title                    = {Scheduling Workloads of Workflows with Unknown Task Runtimes},
   Author                   = {Ilyushkin, Alexey and Ghit, Bogdan and Epema, Dick},
-  Booktitle                = {Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on},
+  Booktitle                = {Cluster, Cloud and Grid Computing (CCGrid), 2015 15\textsuperscript{th} IEEE/ACM International Symposium on},
   Year                     = {2015},
-  Month                    = {May},
-  Pages                    = {606-616},
+  Month                    = may,
+  Pages                    = {606--616},
 
   Abstract                 = {Workflows are important computational tools in many branches of science, and because of the dependencies among their tasks and their widely different characteristics, scheduling them is a difficult problem. Most research on scheduling workflows has focused on the offline problem of minimizing the make span of single workflows with known task runtimes. The problem of scheduling multiple workflows has been addressed either in an offline fashion, or still with the assumption of known task runtimes. In this paper, we study the problem of scheduling workloads consisting of an arrival stream of workflows without task runtime estimates. The resource requirements of a workflow can significantly fluctuate during its execution. Thus, we present four scheduling policies for workloads of workflows with as their main feature the extent to which they reserve processors to workflows to deal with these fluctuations. We perform simulations with realistic synthetic workloads and we show that any form of processor reservation only decreases the overall system performance and that a greedy backfilling-like policy performs best.},
   Doi                      = {10.1109/CCGrid.2015.27},
@@ -777,7 +791,7 @@
 }
 
 @Article{Jiao2015,
-  Title                    = {Immune optimization of task scheduling on multidimensional QoS constraints},
+  Title                    = {Immune optimization of task scheduling on multidimensional {QoS} constraints},
   Author                   = {Jiao, Hejun and Zhang, Jing and Li, JunHuai and Shi, Jinfa and Li, Jian},
   Journal                  = {Cluster Computing},
   Year                     = {2015},
@@ -900,6 +914,20 @@
   Keywords                 = {Workflow scheduling; Genetic algorithm; Multi-objective optimization; Grid computing},
   Language                 = {English},
   Publisher                = {Springer Netherlands}
+}
+
+@Article{Kianpisheh2015,
+  Title                    = {Reliability-driven scheduling of time/cost-constrained grid workflows },
+  Author                   = {Somayeh Kianpisheh and Nasrolah Moghadam Charkari and Mehdi Kargahi},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2015},
+  Pages                    = { - },
+
+  Abstract                 = {Abstract Workflow scheduling in Grids and Clouds is a NP-Hard problem. Constrained workflow scheduling, arisen in recent years, provides the description of the user requirements through defining constraints on factors like makespan and cost. This paper proposes a scheduling algorithm to maximize the workflow execution reliability while respecting the user-defined deadline and budget. We have used ant colony system to minimize an aggregation of reliability and constraints violation. Three novel heuristics have been proposed which are adaptively selected by ants. Two of them are employed to find feasible schedules and the other is used to enhance the reliability. Two methods have been investigated for time and cost considerations in the resource selection. One of them assigns equal importance to the time and cost factors, and the other weighs them according to the tightness of satisfaction of the corresponding constraints. Simulation results demonstrate the effectiveness of the proposed algorithm in finding feasible schedules with high reliability. As it is shown, as an additional achievement, the Grid profit loss has been decreased. },
+  Doi                      = {http://dx.doi.org/10.1016/j.future.2015.07.014},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Workflow scheduling},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X1500237X}
 }
 
 @InProceedings{Kllapi2011,
@@ -1254,6 +1282,19 @@
   Numpages                 = {8}
 }
 
+@InProceedings{7166634,
+  Title                    = {Emerald: Enhance scientific workflow performance with computation offloading to the cloud},
+  Author                   = {Qian, Hao and Andresen, Daniel},
+  Booktitle                = {Computer and Information Science (ICIS), 2015 IEEE/ACIS 14th International Conference on},
+  Year                     = {2015},
+  Month                    = {June},
+  Pages                    = {443-448},
+
+  Abstract                 = {Scientific computational experiments often span multiple computational and analytical steps, and during execution, researchers need to store, access, transfer, and query information. Scientific workflow is a powerful tool to streamline and organize scientific application. Numbers of tools have been developed to help build scientific workflows, they provide mechanisms for creating workflow but lack a native scheduling system for determining where code should be executed. This paper presents Emerald, a system that adds sophisticated computation offloading capabilities to scientific workflows. Emerald automatically offloads computation intensive steps of scientific workflow to the cloud in order to enhance workflow performance. Emerald minimizes the burden on developers to build workflows with computation offloading ability by providing easy-to-use API. Evaluation showed that Emerald can effectively reduce up to 55% of execution time for scientific applications.},
+  Doi                      = {10.1109/ICIS.2015.7166634},
+  Keywords                 = {Computational modeling;Computers;Data models;Mathematical model;Processor scheduling;Runtime;Synchronization;cloud computing;code offloading;distributed computing;scheduling;scientific workflow}
+}
+
 @InProceedings{Raghavan2015,
   Title                    = {Bat algorithm for scheduling workflow applications in cloud},
   Author                   = {Raghavan, S. and Marimuthu, C. and Sarwesh, P. and Chandrasekaran, K.},
@@ -1327,7 +1368,7 @@
 }
 
 @Article{Smanchat2015,
-  Title                    = {Taxonomies of workflow scheduling problem and techniques in the cloud },
+  Title                    = {Taxonomies of workflow scheduling problem and techniques in the cloud},
   Author                   = {Sucha Smanchat and Kanchana Viriyapant},
   Journal                  = {Future Generation Computer Systems },
   Year                     = {2015},
@@ -1360,15 +1401,28 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X13002884}
 }
 
-@InProceedings{Sridhar2015,
+@InProceedings{7154892,
   Title                    = {Hybrid Particle Swarm Optimization scheduling for cloud computing},
-  Author                   = {Sridhar, M. and Babu, G.Rama Mohan},
+  Author                   = {Sridhar, M. and Babu, G.R.M.},
   Booktitle                = {Advance Computing Conference (IACC), 2015 IEEE International},
   Year                     = {2015},
   Month                    = {June},
   Pages                    = {1196-1200},
 
-  Abstract                 = {Cloud computing is revolutionizing on how information technology is used by organizations and individuals. Cloud computing provides dynamic services with virtualized resources over the Internet. It ensures facilities to develop, deploy, and manage applications ‘on the cloud’ for end users entailing resources virtualization that maintains and manages itself. Scheduling is a task performed to get maximum profit to increase cloud computing work load efficiency. Its objective is using resources properly and managing load between resources with minimum execution time. High communication cost incurs in clouds prevent task schedulers from being applied in a large scale distributed environment. This study proposes a hybrid Particle Swarm Optimization (PSO) which performs better in execution ratio and average schedule length.},
+  Abstract                 = {Cloud computing is revolutionizing on how information technology is used by organizations and individuals. Cloud computing provides dynamic services with virtualized resources over the Internet. It ensures facilities to develop, deploy, and manage applications `on the cloud' for end users entailing resources virtualization that maintains and manages itself. Scheduling is a task performed to get maximum profit to increase cloud computing work load efficiency. Its objective is using resources properly and managing load between resources with minimum execution time. High communication cost incurs in clouds prevent task schedulers from being applied in a large scale distributed environment. This study proposes a hybrid Particle Swarm Optimization (PSO) which performs better in execution ratio and average schedule length.},
+  Doi                      = {10.1109/IADCC.2015.7154892},
+  Keywords                 = {cloud computing;particle swarm optimisation;scheduling;virtualisation;Internet;PSO;average schedule length;cloud computing work load efficiency;communication cost;execution ratio;hybrid particle swarm optimization scheduling;large scale distributed environment;maximum profit;minimum execution time;resources virtualization;task schedulers;virtualized resources;Cloud computing;Conferences;Optimal scheduling;Schedules;Scheduling algorithms;Cloud computing;execution ratio and average schedule length;hybrid Particle Swarm Optimization (PSO);task scheduling}
+}
+
+@InProceedings{Sridhar2015,
+  Title                    = {Hybrid Particle Swarm Optimization scheduling for cloud computing},
+  Author                   = {Sridhar, M. and Babu, G.Rama Mohan},
+  Booktitle                = {Advance Computing Conference (IACC), 2015 IEEE International},
+  Year                     = {2015},
+  Month                    = jun,
+  Pages                    = {1196--1200},
+
+  Abstract                 = {Cloud computing is revolutionizing on how information technology is used by organizations and individuals. Cloud computing provides dynamic services with virtualized resources over the Internet. It ensures facilities to develop, deploy, and manage applications {\textquoteleft}on the cloud{\textquoteright} for end users entailing resources virtualization that maintains and manages itself. Scheduling is a task performed to get maximum profit to increase cloud computing work load efficiency. Its objective is using resources properly and managing load between resources with minimum execution time. High communication cost incurs in clouds prevent task schedulers from being applied in a large scale distributed environment. This study proposes a hybrid Particle Swarm Optimization (PSO) which performs better in execution ratio and average schedule length.},
   Doi                      = {10.1109/IADCC.2015.7154892},
   Keywords                 = {Cloud computing;Conferences;Optimal scheduling;Schedules;Scheduling algorithms;Cloud computing;execution ratio and average schedule length;hybrid Particle Swarm Optimization (PSO);task scheduling}
 }
@@ -1436,6 +1490,21 @@
   File                     = {:PDF/Talukder2009.pdf:PDF},
   ISSN                     = {1532-0634},
   Publisher                = {Wiley-Blackwell}
+}
+
+@Article{Tchernykh2015,
+  Title                    = {Online Bi-Objective Scheduling for IaaS Clouds Ensuring Quality of Service},
+  Author                   = {Tchernykh, Andrei and Lozano, Luz and Schwiegelshohn, Uwe and Bouvry, Pascal and Pecero, JohnatanE. and Nesmachnow, Sergio and Drozdov, AlexanderYu.},
+  Journal                  = {Journal of Grid Computing},
+  Year                     = {2015},
+  Pages                    = {1--18},
+
+  Doi                      = {10.1007/s10723-015-9340-0},
+  File                     = {:home/tefx/Downloads/Tchernykh2015.pdf:PDF},
+  ISSN                     = {1570-7873},
+  Keywords                 = {Cloud computing; Service level agreement; Energy efficiency; Multi-objective scheduling; IaaS; Provider income},
+  Language                 = {English},
+  Publisher                = {Springer Netherlands}
 }
 
 @Electronic{Topchiy2013,
@@ -1741,6 +1810,19 @@
   File                     = {:PDF/Yassa.pdf:PDF}
 }
 
+@InProceedings{7152531,
+  Title                    = {Joint Scheduling of Data and Computation in Geo-Distributed Cloud Systems},
+  Author                   = {Lingyan Yin and Jizhou Sun and Laiping Zhao and Chenzhou Cui and Jian Xiao and Ce Yu},
+  Booktitle                = {Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on},
+  Year                     = {2015},
+  Month                    = {May},
+  Pages                    = {657-666},
+
+  Abstract                 = {Recent trends show that cloud computing is growing to span more and more globally distributed data centers. For geo-distributed data centers, there is an increasing need for scheduling algorithms to place tasks across data centers, by jointly considering data and computation. This scheduling must deal with situations such as wide-area distributed data, data sharing, WAN bandwidth costs and data center capacity limits, while also minimizing completion time. However, this kind of scheduling problems is known to be NP-Hard. In this paper, inspired by real applications in astronomy field, we propose a two-phase scheduling algorithm that addresses these challenges. The mapping phase groups tasks considering the data-sharing relations, and dispatches groups to data centers by way of one-to-one correspondence. The reassigning phase balances the completion time across data centers according to relations between tasks and groups. We utilize the real China-Astronomy-Cloud model and typical applications to evaluate our proposal. Simulations show that our algorithm obtains up to 22% better completion time and effectively reduces the amount of data transfers compared with other similar scheduling algorithms.},
+  Doi                      = {10.1109/CCGrid.2015.83},
+  Keywords                 = {astronomy computing;cloud computing;computational complexity;computer centres;scheduling;China-astronomy-cloud model;NP-hard scheduling problems;WAN bandwidth costs;astronomy field;cloud computing;data center capacity limits;data-sharing relations;geo-distributed cloud systems;geo-distributed data centers;joint data-computation scheduling algorithm;mapping phase group tasks;two-phase scheduling algorithm;wide-area distributed data;Astronomy;Computational modeling;Data models;Data transfer;Distributed databases;Scheduling algorithms;cloud computing;data and computation intensive;geo-distributed data centers;scheduling algorithms}
+}
+
 @Article{Yu2005,
   Title                    = {A Taxonomy of Scientific Workflow Systems for Grid Computing},
   Author                   = {Yu, Jia and Buyya, Rajkumar},
@@ -1808,6 +1890,29 @@
   File                     = {:PDF/Yu2008.pdf:PDF},
   ISSN                     = {1530-2016},
   Keywords                 = {graph theory;scheduling;dynamic scheduling strategy;execution time estimation;leveraging job dependence information;multiple workflow applications;planner-guided scheduling strategy;Algorithm design and analysis;Clustering algorithms;Dynamic scheduling;Heuristic algorithms;Job design;Merging;Parallel processing;Resource management;Scheduling algorithm;Time measurement;cluster;scheduling;workflow}
+}
+
+@Article{Zhan:2015:CCR:2775083.2788397,
+  Title                    = {Cloud Computing Resource Scheduling and a Survey of Its Evolutionary Approaches},
+  Author                   = {Zhan, Zhi-Hui and Liu, Xiao-Fang and Gong, Yue-Jiao and Zhang, Jun and Chung, Henry Shu-Hung and Li, Yun},
+  Journal                  = {ACM Comput. Surv.},
+  Year                     = {2015},
+
+  Month                    = jul,
+  Number                   = {4},
+  Pages                    = {63:1--63:33},
+  Volume                   = {47},
+
+  Acmid                    = {2788397},
+  Address                  = {New York, NY, USA},
+  Articleno                = {63},
+  Doi                      = {10.1145/2788397},
+  ISSN                     = {0360-0300},
+  Issue_date               = {July 2015},
+  Keywords                 = {Cloud computing, ant colony optimization, evolutionary computation, genetic algorithm, particle swarm optimization, resource scheduling},
+  Numpages                 = {33},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2788397}
 }
 
 @Article{Zhan2015,

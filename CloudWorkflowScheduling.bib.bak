@@ -1141,6 +1141,25 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15000059}
 }
 
+@InProceedings{Malawski:2012:CDP:2388996.2389026,
+  Title                    = {Cost- and Deadline-constrained Provisioning for Scientific Workflow Ensembles in IaaS Clouds},
+  Author                   = {Malawski, Maciej and Juve, Gideon and Deelman, Ewa and Nabrzyski, Jarek},
+  Booktitle                = {Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis},
+  Year                     = {2012},
+
+  Address                  = {Los Alamitos, CA, USA},
+  Pages                    = {22:1--22:11},
+  Publisher                = {IEEE Computer Society Press},
+  Series                   = {SC '12},
+
+  Acmid                    = {2389026},
+  Articleno                = {22},
+  ISBN                     = {978-1-4673-0804-5},
+  Location                 = {Salt Lake City, Utah},
+  Numpages                 = {11},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2388996.2389026}
+}
+
 @InProceedings{Malawski2012,
   Title                    = {Cost- and Deadline-constrained Provisioning for Scientific Workflow Ensembles in IaaS Clouds},
   Author                   = {Malawski, Maciej and Juve, Gideon and Deelman, Ewa and Nabrzyski, Jarek},

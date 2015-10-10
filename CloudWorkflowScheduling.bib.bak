@@ -118,6 +118,24 @@
   Publisher                = {Springer Netherlands}
 }
 
+@Article{Arabnejad2016,
+  Title                    = {Low-time complexity budget–deadline constrained workflow scheduling on heterogeneous resources },
+  Author                   = {Hamid Arabnejad and Jorge G. Barbosa and Radu Prodan},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2016},
+  Pages                    = {29--40},
+  Volume                   = {55},
+
+  Abstract                 = {Abstract The execution of scientific applications, under the utility computing model, is constrained to Quality of Service (QoS) parameters. Commonly, applications have time and cost constraints such that all tasks of an application need to be finished within a user-specified Deadline and Budget. Several algorithms have been proposed for multiple QoS workflow scheduling, but most of them use search-based strategies that generally have a high time complexity, making them less useful in realistic scenarios. In this paper, we present a heuristic scheduling algorithm with quadratic time complexity that considers two important constraints for QoS-based workflow scheduling, time and cost, named Deadline–Budget Constrained Scheduling (DBCS). From the deadline and budget defined by the user, the \{DBCS\} algorithm finds a feasible solution that accomplishes both constraints with a success rate similar to other state-of-the-art search-based algorithms in terms of the successful rate of feasible solutions, consuming in the worst case only approximately 4% of the time. The \{DBCS\} algorithm has a low-time complexity of O ( n 2 . p ) for n tasks and p processors.},
+  Doi                      = {10.1016/j.future.2015.07.021},
+  File                     = {:PDF/Arabnejad201629.pdf:PDF},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Quality of Service},
+  Owner                    = {tefx},
+  Timestamp                = {2015.10.10},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15002587}
+}
+
 @Article{Armbrust2010,
   Title                    = {A View of Cloud Computing},
   Author                   = {Armbrust, Michael and Fox, Armando and Griffith, Rean and Joseph, Anthony D. and Katz, Randy and Konwinski, Andy and Lee, Gunho and Patterson, David and Rabkin, Ariel and Stoica, Ion and Zaharia, Matei},
@@ -197,7 +215,7 @@
   Booktitle                = {Geoscience and Remote Sensing Symposium (IGARSS), 2013 IEEE International},
   Year                     = {2013},
   Month                    = {July},
-  Pages                    = {1159-1162},
+  Pages                    = {1159--1162},
 
   Abstract                 = {Geospatial information is different than conventional information. Harmonization is needed for interoperability and seamless access to data. Ontology matching is an emerging solution to achieve this harmonization. The input data of the Geospatial ontologies vary from the conventional ontologies and hence it is conceptualized in a different manner. There are two major obstacles for geoinformation fusion: heterogeneity and uncertainty. Heterogeneity is more prevalent and uncertainty is an unavoidable entity in geospatial domain. This paper explores a novel multi-objective algorithm for geospatial ontology matching. It uses Pareto ranking to sort the probable solution and derives the pareto front. This pareto front is used further to find the best match.},
   Doi                      = {10.1109/IGARSS.2013.6721371},
@@ -273,6 +291,40 @@
   Keywords                 = {cloud computing;resource allocation;scheduling;telecommunication channels;workflow management software;communication channels;communication uncertainties;hybrid clouds;network links;private resources;public clouds;public resources;resource allocation;scheduling algorithms;workflow scheduling}
 }
 
+@Article{Bochenina2016,
+  Title                    = {Static scheduling of multiple workflows with soft deadlines in non-dedicated heterogeneous environments },
+  Author                   = {Klavdiya Bochenina and Nikolay Butakov and Alexander Boukhanovsky},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2016},
+  Pages                    = {51--61},
+  Volume                   = {55},
+
+  Abstract                 = {Abstract Typical patterns of using scientific workflows include their periodical executions using a fixed set of computational resources. Using the statistics from multiple runs, one can accurately estimate task execution and communication times to apply static scheduling algorithms. Several workflows with known estimates could be combined into a set to improve the resulting schedule. In this paper, we consider the mapping of multiple workflows to partially available heterogeneous resources. The problem is how to fill free time windows with tasks from different workflows, taking into account users’ requirements of the urgency of the results of calculations. To estimate quality of schedules for several workflows with various soft deadlines, we introduce the unified metric incorporating levels of meeting constraints and fairness of resource distribution. The main goal of the work was to develop a set of algorithms implementing different scheduling strategies for multiple workflows with soft deadlines in a non-dedicated environment, and to perform a comparative analysis of these strategies. We study how time restrictions (given by resource providers and users) influence the quality of schedules, and which scheme of grouping and ordering the tasks is the most effective for the batched scheduling of non-urgent workflows. Experiments with several types of synthetic and domain-specific sets of multiple workflows show that: (i) the use of information about time windows and deadlines leads to the significant increase of the quality of static schedules, (ii) the clustering-based scheduling scheme outperforms task-based and workflow-based schemes. This was confirmed by an evaluation of studied algorithms on a basis of the \{CLAVIRE\} workflow management platform. },
+  Doi                      = {10.1016/j.future.2015.08.009},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Workflow scheduling},
+  Owner                    = {tefx},
+  Timestamp                = {2015.10.10},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15002629}
+}
+
+@Article{Bochenina2015,
+  Title                    = {Static scheduling of multiple workflows with soft deadlines in non-dedicated heterogeneous environments },
+  Author                   = {Klavdiya Bochenina and Nikolay Butakov and Alexander Boukhanovsky},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2015},
+  Pages                    = {-},
+
+  Abstract                 = {Abstract Typical patterns of using scientific workflows include their periodical executions using a fixed set of computational resources. Using the statistics from multiple runs, one can accurately estimate task execution and communication times to apply static scheduling algorithms. Several workflows with known estimates could be combined into a set to improve the resulting schedule. In this paper, we consider the mapping of multiple workflows to partially available heterogeneous resources. The problem is how to fill free time windows with tasks from different workflows, taking into account users’ requirements of the urgency of the results of calculations. To estimate quality of schedules for several workflows with various soft deadlines, we introduce the unified metric incorporating levels of meeting constraints and fairness of resource distribution. The main goal of the work was to develop a set of algorithms implementing different scheduling strategies for multiple workflows with soft deadlines in a non-dedicated environment, and to perform a comparative analysis of these strategies. We study how time restrictions (given by resource providers and users) influence the quality of schedules, and which scheme of grouping and ordering the tasks is the most effective for the batched scheduling of non-urgent workflows. Experiments with several types of synthetic and domain-specific sets of multiple workflows show that: (i) the use of information about time windows and deadlines leads to the significant increase of the quality of static schedules, (ii) the clustering-based scheduling scheme outperforms task-based and workflow-based schemes. This was confirmed by an evaluation of studied algorithms on a basis of the \{CLAVIRE\} workflow management platform. },
+  Doi                      = {10.1016/j.future.2015.08.009},
+  File                     = {:PDF/Bochenina2015.pdf:PDF},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Workflow scheduling},
+  Owner                    = {tefx},
+  Timestamp                = {2015.09.10},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15002629}
+}
+
 @InCollection{Cai2013,
   Title                    = {Critical Path-Based Iterative Heuristic for Workflow Scheduling in Utility and Cloud Computing},
   Author                   = {Cai, Zhicheng and Li, Xiaoping and Gupta, JatinderN.D.},
@@ -303,6 +355,19 @@
   Doi                      = {10.1109/GreenCom-iThings-CPSCom.2013.58},
   File                     = {:PDF/Cao2013.pdf:PDF},
   Keywords                 = {air pollution;cloud computing;computer centres;contracts;energy consumption;green computing;performance evaluation;power aware computing;public domain software;quality of service;resource allocation;scheduling;sustainable development;virtual machines;workflow management software;CPU frequency;DVFS;QoS;SLA;VM overhead;allocation algorithm;carbon dioxide emissions;cloud data centers;computer servers;computing capacity;consolidated VM reuse;deployment;dual operation modes;dynamic voltage and frequency scaling;energy consumption;energy cost;energy-aware workflow job scheduling;finishing time;green clouds;higher system throughput;network bandwidth;open source CloudSim simulator;performance metric evaluation;quality of service;reservation instances;resource provision;resource utilization rate;response time requirement;service level agreement;sustainable cloud computing;virtual machine overhead;virtual machines;Clouds;Computational modeling;Cooling;Energy consumption;Green products;Resource management;Servers}
+}
+
+@InProceedings{7214142,
+  Title                    = {Cost-Aware Elastic Cloud Provisioning for Scientific Workloads},
+  Author                   = {Chard, R. and Chard, K. and Bubendorfer, K. and Lacinski, L. and Madduri, R. and Foster, I.},
+  Booktitle                = {Cloud Computing (CLOUD), 2015 IEEE 8th International Conference on},
+  Year                     = {2015},
+  Month                    = {June},
+  Pages                    = {971-974},
+
+  Abstract                 = {Cloud computing provides an efficient model to host and scale scientific applications. While cloud-based approaches can reduce costs as users pay only for the resources used, it is often challenging to scale execution both efficiently and cost-effectively. We describe here a cost-aware elastic cloud provisioner designed to elastically provision cloud infrastructure to execute analyses cost-effectively. The provisioner considers real-time spot instance prices across availability zones, leverages application profiles to optimize instance type selection, over-provisions resources to alleviate bottlenecks caused by oversubscribed instance types, and is capable of reverting to on-demand instances when spot prices exceed thresholds. We evaluate the usage of our cost-aware provisioner using four production scientific gateways and show that it can produce cost savings of up to 97.2% when compared to naive provisioning approaches.},
+  Doi                      = {10.1109/CLOUD.2015.130},
+  Keywords                 = {cloud computing;scientific information systems;software cost estimation;availability zones;cloud computing;cost savings;cost-aware elastic cloud provisioner;elastically provision cloud infrastructure design;instance type selection optimization;oversubscribed instance types;production scientific gateways;real-time spot instance prices;scientific workload;Cloud computing;Computational modeling;Logic gates;Monitoring;Pricing;Production;Real-time systems;Cloud;Cost-aware;Provisioning}
 }
 
 @Article{Chen2009,
@@ -502,6 +567,22 @@
   Pages                    = { - },
 
   Abstract                 = {Abstract As distributed computing infrastructures become nowadays ever more complex and heterogeneous, scientists are confronted with multiple competing goals such as makespan in high-performance computing and economic cost in Clouds. Existing approaches typically aim at finding a single tradeoff solution by aggregating or constraining the objectives in an a-priory fashion, which negatively impacts the quality of the solutions. In contrast, Pareto-based approaches aiming to approximate the complete set of (nearly-) optimal tradeoff solutions have been scarcely studied. In this paper, we extend the popular Heterogeneous Earliest Finish Time (HEFT) workflow scheduling heuristic for dealing with multiple conflicting objectives and approximating the Pareto frontier optimal schedules. We evaluate our new algorithm for performance and cost tradeoff optimisation of synthetic and real-world applications in Distributed Computing Infrastructures (DCIs) and federated Clouds and compare it with a state-of-the-art meta-heuristic from the multi-objective optimisation community. },
+  Doi                      = {http://dx.doi.org/10.1016/j.simpat.2015.07.001},
+  ISSN                     = {1569-190X},
+  Keywords                 = {Scheduling},
+  Owner                    = {tefx},
+  Timestamp                = {2015.10.10},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1569190X15001057}
+}
+
+@Article{Durillo2015a,
+  Title                    = {Pareto tradeoff scheduling of workflows on federated commercial Clouds },
+  Author                   = {Juan J. Durillo and Radu Prodan and Jorge G. Barbosa},
+  Journal                  = {Simulation Modelling Practice and Theory },
+  Year                     = {2015},
+  Pages                    = { - },
+
+  Abstract                 = {Abstract As distributed computing infrastructures become nowadays ever more complex and heterogeneous, scientists are confronted with multiple competing goals such as makespan in high-performance computing and economic cost in Clouds. Existing approaches typically aim at finding a single tradeoff solution by aggregating or constraining the objectives in an a-priory fashion, which negatively impacts the quality of the solutions. In contrast, Pareto-based approaches aiming to approximate the complete set of (nearly-) optimal tradeoff solutions have been scarcely studied. In this paper, we extend the popular Heterogeneous Earliest Finish Time (HEFT) workflow scheduling heuristic for dealing with multiple conflicting objectives and approximating the Pareto frontier optimal schedules. We evaluate our new algorithm for performance and cost tradeoff optimisation of synthetic and real-world applications in Distributed Computing Infrastructures (DCIs) and federated Clouds and compare it with a state-of-the-art meta-heuristic from the multi-objective optimisation community. },
   Doi                      = {10.1016/j.simpat.2015.07.001},
   ISSN                     = {1569-190X},
   Keywords                 = {Scheduling},
@@ -654,23 +735,6 @@
   Keywords                 = {cloud computing;fault tolerant computing;processor scheduling;resource allocation;Round Robin strategy;Web 2.0 applications;cloud computing;fault tolerance;high availability requirements;multicloud resource provisioning;multiobjective metaheuristics;multiobjective scheduling algorithms;resource load maximization;Availability;Cloud computing;Databases;Generators;Graphics;Processor scheduling;Schedules;cloud scheduling;meta-heuristics;multi-objective scheduling}
 }
 
-@InCollection{Garg2011,
-  Title                    = {Multi-objective Workflow Grid Scheduling Based on Discrete Particle Swarm Optimization},
-  Author                   = {Garg, Ritu and Singh, AwadheshKumar},
-  Booktitle                = {Swarm, Evolutionary, and Memetic Computing},
-  Publisher                = {Springer Berlin Heidelberg},
-  Year                     = {2011},
-  Editor                   = {Panigrahi, BijayaKetan and Suganthan, PonnuthuraiNagaratnam and Das, Swagatam and Satapathy, SureshChandra},
-  Pages                    = {183--190},
-  Series                   = {Lecture Notes in Computer Science},
-  Volume                   = {7076},
-
-  Doi                      = {10.1007/978-3-642-27172-4_23},
-  File                     = {:PDF/Garg2011.pdf:PDF},
-  ISBN                     = {978-3-642-27171-7},
-  Language                 = {English}
-}
-
 @Article{Garg2013,
   Title                    = {Multi-objective workflow grid scheduling using $\varepsilon$ -fuzzy dominance sort based discrete particle swarm optimization},
   Author                   = {Garg, Ritu and Singh, Awadhesh Kumar},
@@ -679,13 +743,25 @@
 
   Month                    = nov,
   Number                   = {2},
-  Pages                    = {709–732},
+  Pages                    = {709--732},
   Volume                   = {68},
 
   Doi                      = {10.1007/s11227-013-1059-8},
   File                     = {:PDF/Garg2013.pdf:PDF},
   ISSN                     = {1573-0484},
   Publisher                = {Springer Science + Business Media}
+}
+
+@InCollection{Garg2011,
+  Title                    = {Multi-objective workflow grid scheduling based on discrete particle swarm optimization},
+  Author                   = {Garg, Ritu and Singh, Awadhesh Kumar},
+  Booktitle                = {Swarm, Evolutionary, and Memetic Comput.},
+  Publisher                = {Springer},
+  Year                     = {2011},
+  Pages                    = {183--190},
+
+  Owner                    = {tefx},
+  Timestamp                = {2015.10.10}
 }
 
 @Article{GhorbanniaDelavar2014,
@@ -1141,25 +1217,6 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X15000059}
 }
 
-@InProceedings{Malawski:2012:CDP:2388996.2389026,
-  Title                    = {Cost- and Deadline-constrained Provisioning for Scientific Workflow Ensembles in IaaS Clouds},
-  Author                   = {Malawski, Maciej and Juve, Gideon and Deelman, Ewa and Nabrzyski, Jarek},
-  Booktitle                = {Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis},
-  Year                     = {2012},
-
-  Address                  = {Los Alamitos, CA, USA},
-  Pages                    = {22:1--22:11},
-  Publisher                = {IEEE Computer Society Press},
-  Series                   = {SC '12},
-
-  Acmid                    = {2389026},
-  Articleno                = {22},
-  ISBN                     = {978-1-4673-0804-5},
-  Location                 = {Salt Lake City, Utah},
-  Numpages                 = {11},
-  Url                      = {http://dl.acm.org/citation.cfm?id=2388996.2389026}
-}
-
 @InProceedings{Malawski2012,
   Title                    = {Cost- and Deadline-constrained Provisioning for Scientific Workflow Ensembles in IaaS Clouds},
   Author                   = {Malawski, Maciej and Juve, Gideon and Deelman, Ewa and Nabrzyski, Jarek},
@@ -1470,19 +1527,6 @@
   Keywords                 = {cloud computing;particle swarm optimisation;scheduling;virtualisation;Internet;PSO;average schedule length;cloud computing work load efficiency;communication cost;execution ratio;hybrid particle swarm optimization scheduling;large scale distributed environment;maximum profit;minimum execution time;resources virtualization;task schedulers;virtualized resources;Cloud computing;Conferences;Optimal scheduling;Schedules;Scheduling algorithms;Cloud computing;execution ratio and average schedule length;hybrid Particle Swarm Optimization (PSO);task scheduling}
 }
 
-@InProceedings{Sridhar2015a,
-  Title                    = {Hybrid Particle Swarm Optimization scheduling for cloud computing},
-  Author                   = {Sridhar, M. and Babu, G.Rama Mohan},
-  Booktitle                = {Advance Computing Conference (IACC), 2015 IEEE International},
-  Year                     = {2015},
-  Month                    = jun,
-  Pages                    = {1196--1200},
-
-  Abstract                 = {Cloud computing is revolutionizing on how information technology is used by organizations and individuals. Cloud computing provides dynamic services with virtualized resources over the Internet. It ensures facilities to develop, deploy, and manage applications {\textquoteleft}on the cloud{\textquoteright} for end users entailing resources virtualization that maintains and manages itself. Scheduling is a task performed to get maximum profit to increase cloud computing work load efficiency. Its objective is using resources properly and managing load between resources with minimum execution time. High communication cost incurs in clouds prevent task schedulers from being applied in a large scale distributed environment. This study proposes a hybrid Particle Swarm Optimization (PSO) which performs better in execution ratio and average schedule length.},
-  Doi                      = {10.1109/IADCC.2015.7154892},
-  Keywords                 = {Cloud computing;Conferences;Optimal scheduling;Schedules;Scheduling algorithms;Cloud computing;execution ratio and average schedule length;hybrid Particle Swarm Optimization (PSO);task scheduling}
-}
-
 @Article{Su2013,
   Title                    = {Cost-efficient task scheduling for executing large programs in the cloud },
   Author                   = {Sen Su and Jian Li and Qingjia Huang and Xiao Huang and Kai Shuang and Jie Wang},
@@ -1539,7 +1583,7 @@
 
   Month                    = sep,
   Number                   = {13},
-  Pages                    = {1742–1756},
+  Pages                    = {1742--1756},
   Volume                   = {21},
 
   Doi                      = {10.1002/cpe.1417},
@@ -1871,7 +1915,7 @@
   Booktitle                = {Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on},
   Year                     = {2015},
   Month                    = {May},
-  Pages                    = {657-666},
+  Pages                    = {657--666},
 
   Abstract                 = {Recent trends show that cloud computing is growing to span more and more globally distributed data centers. For geo-distributed data centers, there is an increasing need for scheduling algorithms to place tasks across data centers, by jointly considering data and computation. This scheduling must deal with situations such as wide-area distributed data, data sharing, WAN bandwidth costs and data center capacity limits, while also minimizing completion time. However, this kind of scheduling problems is known to be NP-Hard. In this paper, inspired by real applications in astronomy field, we propose a two-phase scheduling algorithm that addresses these challenges. The mapping phase groups tasks considering the data-sharing relations, and dispatches groups to data centers by way of one-to-one correspondence. The reassigning phase balances the completion time across data centers according to relations between tasks and groups. We utilize the real China-Astronomy-Cloud model and typical applications to evaluate our proposal. Simulations show that our algorithm obtains up to 22% better completion time and effectively reduces the amount of data transfers compared with other similar scheduling algorithms.},
   Doi                      = {10.1109/CCGrid.2015.83},
@@ -1948,29 +1992,6 @@
 }
 
 @Article{Zhan2015,
-  Title                    = {Cloud Computing Resource Scheduling and a Survey of Its Evolutionary Approaches},
-  Author                   = {Zhan, Zhi-Hui and Liu, Xiao-Fang and Gong, Yue-Jiao and Zhang, Jun and Chung, Henry Shu-Hung and Li, Yun},
-  Journal                  = {ACM Comput. Surv.},
-  Year                     = {2015},
-
-  Month                    = jul,
-  Number                   = {4},
-  Pages                    = {63:1--63:33},
-  Volume                   = {47},
-
-  Acmid                    = {2788397},
-  Address                  = {New York, NY, USA},
-  Articleno                = {63},
-  Doi                      = {10.1145/2788397},
-  ISSN                     = {0360-0300},
-  Issue_date               = {July 2015},
-  Keywords                 = {Cloud computing, ant colony optimization, evolutionary computation, genetic algorithm, particle swarm optimization, resource scheduling},
-  Numpages                 = {33},
-  Publisher                = {ACM},
-  Url                      = {http://doi.acm.org/10.1145/2788397}
-}
-
-@Article{Zhan2015a,
   Title                    = {Cloud Computing Resource Scheduling and a Survey of Its Evolutionary Approaches},
   Author                   = {Zhan, Zhi-Hui and Liu, Xiao-Fang and Gong, Yue-Jiao and Zhang, Jun and Chung, Henry Shu-Hung and Li, Yun},
   Journal                  = {ACM Comput. Surv.},
@@ -2140,7 +2161,7 @@
   Journal                  = {Parallel and Distributed Systems, IEEE Transactions on},
   Year                     = {2015},
   Number                   = {99},
-  Pages                    = {1-1},
+  Pages                    = {-},
   Volume                   = {PP},
 
   Abstract                 = {Cloud computing provides promising platforms for executing large applications with enormous computational resources to offer on demand. In a Cloud model, users are charged based on their usage of resources and the required Quality of Service (QoS) specifications. Although there are many existing workflow scheduling algorithms in traditional distributed or heterogeneous computing environments, they have difficulties in being directly applied to the Cloud environments since Cloud differs from traditional heterogeneous environments by its service-based resource managing method and pay-per-use pricing strategies. In this paper, we highlight such difficulties, and model the workflow scheduling problem which optimizes both makespan and cost as a Multi-objective Optimization Problem (MOP) for the Cloud environments. We propose an Evolutionary Multi-objective Optimization (EMO)-based algorithm to solve this workflow scheduling problem on an Infrastructure as a Service (IaaS) platform. Novel schemes for problemspecific encoding and population initialization, fitness evaluation and genetic operators are proposed in this algorithm. Extensive experiments on real world workflows and randomly generated workflows show that the schedules produced by our evolutionary algorithm present more stability on most of the workflows with the instance-based IaaS computing and pricing models. The results also show that our algorithm can achieve significantly better solutions than existing state-of-the-art QoS optimization scheduling algorithms in most cases. The conducted experiments are based on the on-demand instance types of Amazon EC2; however, the proposed algorithm are easy to be extended to the resources and pricing models of other IaaS services.},
